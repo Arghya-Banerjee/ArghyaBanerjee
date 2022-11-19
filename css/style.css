@@ -12,6 +12,17 @@ body {
     background-color: rgb(21, 20, 24);
 }
 
+.first-carousel {
+    height: 80vh;
+    width: 100%;
+}
+
+.carousal-img { 
+    height: 90vh;
+    width: 100%;
+    opacity: 65%;
+}
+
 .flex {
     display: flex;
     flex-direction: row;

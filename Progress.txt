@@ -1,0 +1,9 @@
+Made the skeleton of the website
+
+- 17.11.2022
+
+
+
+Made minor changes to the UI of the website
+
+- 19.11.2022
