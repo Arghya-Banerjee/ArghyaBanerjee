@@ -1,88 +1,15 @@
-:root{
-    --color1 : #F72585;
-    --color2 : #7209B7;
-    --color3 : #3A0CA3;
-    --color4 : #4361EE;
-    --color5 : #4CC9F0;
-    --color-dark : #232323;
-    --color-light : #f7f7f7;
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+h1, h2, h3, h4, h5 ,h6, p, li, a{
+    font-family: 'Titillium Web', sans-serif;
 }
 
-body {
-    background-color: rgb(21, 20, 24);
+*{
+    margin: 0;
+    padding: 0;
 }
 
-.first-carousel {
-    height: 80vh;
+html, body{
     width: 100%;
-}
-
-.carousal-img { 
-    height: 90vh;
-    width: 100%;
-    opacity: 65%;
-}
-
-.flex {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-.padding-10 {
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-.heading {
-    min-height: 100px;
-    font-size: 6rem;
-    font-weight: 600;
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 30px;
-    color: var(--color-light);
-}
-
-
-.card-row {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
-.card-row-bg {
-    border-radius: 100px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-.card-style {
-    height: 540px;
-    width: 80%;
-}
-
-.card-text-style {
-    color: var(--color-dark);
-    font-size: 24px;
-    font-weight: 500;
-}
-
-.lastest-card-style {
-    padding-left: 40px;
-    padding-right: 40px;
-}
-
-.carousel-latest-style {
-    width: 65%;
-    margin: auto;
-}
-
-.card-title-style{
-    padding-top: 300px;
-    font-size: 150px;
-    font-weight: 300;
-    text-align: center;
+    height: 100%;
 }
